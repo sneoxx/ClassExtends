@@ -9,12 +9,15 @@ public class Main {                                                      // Кл
         System.out.println("Катер");
         waterfowlVehicle boatREX = new waterfowlVehicle();
         boatREX.showAll();
+        boatREX.move();
         System.out.println("ВАЗ КАЛИНА");
         groundVehicle vazKalina = new groundVehicle();
         vazKalina.showAll();
+        vazKalina.move();
         System.out.println("Самолет Кукурузник");
         flyVehicle planeCrop = new flyVehicle();
         planeCrop.showAll();
+        planeCrop.move();
     }
 }
 

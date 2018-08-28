@@ -28,14 +28,14 @@ public class waterfowlVehicle extends Vehicle {
 
     @Override
     void show() {                                                      // Метод для отображения полей:
-        System.out.println("model " + model + " width " + width + " length " + length + "height" + height + "weight" + weight);
-        System.out.println("maxSpeed" + maxSpeed + "passengerCapacity" + passengerCapacity + "liftingCapacity" + liftingCapacity + " sailing " + sailing + " displacement " + displacement );
+        System.out.println("model - " + model + "  width - " + width + "  length - " + length + "  height -  " + height + "  weight - " + weight);
+        System.out.println("maxSpeed - " + maxSpeed + "  passengerCapacity - " + passengerCapacity + "  liftingCapacity - " + liftingCapacity + "  sailing - " + sailing + "  displacement - " + displacement );
         System.out.println();
     }
 
     @Override
     void move() {
-        System.out.println( model + " плывет со скоростью " + currentSpeed);
+        System.out.println( model + " плывет со скоростью " + currentSpeed + " км/ч");
         System.out.println();
     }
 }

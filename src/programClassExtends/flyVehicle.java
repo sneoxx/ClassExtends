@@ -1,5 +1,5 @@
 package programClassExtends;
-import
+import programClassExtends.*;
 
 public class flyVehicle extends Vehicle {
     int maxHeight;
@@ -19,7 +19,7 @@ public class flyVehicle extends Vehicle {
     }
 
 
-   flyVehicle(String model, double width, double length, double height, double weight, double maxSpeed, double currentSpeed, int passengerCapacity, double liftingCapacity, String maxHeight) {
+   flyVehicle(String model, double width, double length, double height, double weight, double maxSpeed, double currentSpeed, int passengerCapacity, double liftingCapacity, int maxHeight) {
         super(model, width, length, height, weight, maxSpeed, currentSpeed, passengerCapacity, liftingCapacity);
         this.maxHeight = maxHeight;
     }
@@ -27,14 +27,14 @@ public class flyVehicle extends Vehicle {
 
     @Override
     void show() {                                                      // Метод для отображения полей:
-        System.out.println("model " + model + " width " + width + " length " + length + "height" + height + "weight" + weight);
-        System.out.println("maxSpeed" + maxSpeed + "passengerCapacity" + passengerCapacity + "liftingCapacity" + liftingCapacity + " maxHeight " + maxHeight);
+        System.out.println("model - " + model + "  width - " + width + "  length - " + length + "  height - " + height + "  weight - " + weight);
+        System.out.println("maxSpeed - " + maxSpeed + "  passengerCapacity - " + passengerCapacity + "  liftingCapacity - " + liftingCapacity + "  maxHeight - " + maxHeight);
         System.out.println();
     }
 
     @Override
     void move() {
-        System.out.println(model + " летит со скоростью " + currentSpeed);
+        System.out.println(model + " летит со скоростью " + currentSpeed  + " км/ч");
         System.out.println();
     }
 

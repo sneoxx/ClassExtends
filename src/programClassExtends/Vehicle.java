@@ -12,7 +12,7 @@ abstract class Vehicle {                                                     // 
     int passengerCapacity;
     double liftingCapacity;
 
-    public Vehicle(String model, double width, double length, double height, double weight, double maxSpeed, double currentSpeed, int passengerCapacity, double liftingCapacity) {
+    Vehicle() {
         this.model = "XXX";
         this.width = 0;
         this.length = 0;
@@ -24,7 +24,7 @@ abstract class Vehicle {                                                     // 
         this.liftingCapacity = 0;
     }
 
-    public Vehicle(String model, double width, double length, double height, double weight, double maxSpeed, double currentSpeed, int passengerCapacity, double liftingCapacity) {
+   Vehicle(String model, double width, double length, double height, double weight, double maxSpeed, double currentSpeed, int passengerCapacity, double liftingCapacity) {
         this.model = model;
         this.width = width;
         this.length = length;
@@ -37,8 +37,8 @@ abstract class Vehicle {                                                     // 
     }
 
     void show() {                                                      // Метод для отображения полей:
-        System.out.println("model " + model + " width " + width + " length " + length + "height" + height + "weight" + weight);
-        System.out.println("maxSpeed" + maxSpeed + "passengerCapacity" + passengerCapacity + "liftingCapacity" + liftingCapacity  );
+        System.out.println("model - " + model + " width - " + width + " length - " + length + " height - " + height + " weight - " + weight);
+        System.out.println("maxSpeed - " + maxSpeed + " passengerCapacity - " + passengerCapacity + " liftingCapacity - " + liftingCapacity  );
         System.out.println();
     }
 
