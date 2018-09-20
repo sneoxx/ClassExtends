@@ -1,11 +1,11 @@
 package programClassExtends;
 
-public class groundVehicle extends Vehicle {
+public class GroundVehicle extends Vehicle {
    double potencia;
    String engineType;
    String bodyType;
 
-   groundVehicle(){
+   GroundVehicle(){
         super();
         model = "KALINA 2118";
         width = 308.5;
@@ -21,7 +21,7 @@ public class groundVehicle extends Vehicle {
         bodyType = "Sedan";
     }
 
-    groundVehicle(String model, double width, double length, double height, double weight, double maxSpeed, double currentSpeed, int passengerCapacity, double liftingCapacity, double potencia, String engineType, String bodyType) {
+    GroundVehicle(String model, double width, double length, double height, double weight, double maxSpeed, double currentSpeed, int passengerCapacity, double liftingCapacity, double potencia, String engineType, String bodyType) {
         super(model, width, length, height, weight, maxSpeed, currentSpeed, passengerCapacity, liftingCapacity);
         this.potencia = potencia;
         this.engineType = engineType;

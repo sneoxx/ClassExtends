@@ -1,10 +1,10 @@
 package programClassExtends;
 
-public class waterfowlVehicle extends Vehicle {
+public class WaterfowlVehicle extends Vehicle {
   boolean sailing;
   double displacement;
 
-  waterfowlVehicle(){
+  WaterfowlVehicle(){
       super();
       model = "BOAT REX 9000";
       width = 508.5;
@@ -19,7 +19,7 @@ public class waterfowlVehicle extends Vehicle {
       displacement = 105;
   }
 
-    waterfowlVehicle(String model, double width, double length, double height, double weight, double maxSpeed, double currentSpeed, int passengerCapacity, double liftingCapacity, boolean sailing, double displacement) {
+    WaterfowlVehicle(String model, double width, double length, double height, double weight, double maxSpeed, double currentSpeed, int passengerCapacity, double liftingCapacity, boolean sailing, double displacement) {
       super(model, width, length, height, weight, maxSpeed, currentSpeed, passengerCapacity, liftingCapacity);
       this.sailing = sailing;
       this.displacement = displacement;

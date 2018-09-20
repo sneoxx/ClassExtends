@@ -7,15 +7,15 @@ public class Main {                                                      // Кл
 // Создание объектов (анонимных) подкласса.
 // Используются разные конструкторы:
         System.out.println("Катер");
-        waterfowlVehicle boatREX = new waterfowlVehicle();
+        WaterfowlVehicle boatREX = new WaterfowlVehicle();
         boatREX.showAll();
         boatREX.move();
         System.out.println("ВАЗ КАЛИНА");
-        groundVehicle vazKalina = new groundVehicle();
+        GroundVehicle vazKalina = new GroundVehicle();
         vazKalina.showAll();
         vazKalina.move();
         System.out.println("Самолет Кукурузник");
-        flyVehicle planeCrop = new flyVehicle();
+        FlyVehicle planeCrop = new FlyVehicle();
         planeCrop.showAll();
         planeCrop.move();
     }

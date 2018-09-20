@@ -1,10 +1,10 @@
 package programClassExtends;
 import programClassExtends.*;
 
-public class flyVehicle extends Vehicle {
+public class FlyVehicle extends Vehicle {
     int maxHeight;
 
-    flyVehicle(){
+    FlyVehicle(){
         super();
         model = "planeCrop";
         width = 1045.5;
@@ -19,7 +19,7 @@ public class flyVehicle extends Vehicle {
     }
 
 
-   flyVehicle(String model, double width, double length, double height, double weight, double maxSpeed, double currentSpeed, int passengerCapacity, double liftingCapacity, int maxHeight) {
+   FlyVehicle(String model, double width, double length, double height, double weight, double maxSpeed, double currentSpeed, int passengerCapacity, double liftingCapacity, int maxHeight) {
         super(model, width, length, height, weight, maxSpeed, currentSpeed, passengerCapacity, liftingCapacity);
         this.maxHeight = maxHeight;
     }
